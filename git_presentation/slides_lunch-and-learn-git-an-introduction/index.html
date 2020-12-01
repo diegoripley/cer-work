@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Lunch and Learn - Git: An Introduction</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-black-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="7856810eb079d0d4d4a95166a4621380"><div class="sl-block" data-block-type="text" style="width: 806px; left: 527.5159705159705px; top: 432px; height: auto;" data-block-id="8a324d0fb85b2236506dda99cf5e4d7b"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1>Lunch and Learn</h1>
+
+<h2>Git: An Introduction</h2>
+</div></div></section><section class="stack" data-id="9e3cf706175d64b7ba17a0088a0f8279"><section data-id="251185867d23ee5c2c0c279e73e730b9"><div class="sl-block" data-block-type="text" style="width: 651px; left: 61.6369px; top: 72px; height: auto;" data-block-id="31d5bad53a58bbccfe4f88b7de68e04e"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>What is Git?</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-65c3c6" data-block-id="6a47a0a4be6d5cf4c37aca8b207fe3fb" style="height: auto; width: 800px; left: 61.6369px; top: 201px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+<ul>
+	<li>Created in April 2005 by Linus Torvalds, creator of Linux.
+	<ul>
+		<li>Tailored for better speed, performance, flexibility, and usability than other version control systems.</li>
+	</ul>
+	</li>
+	<li>It won. 2018 survey of developers by <a href="https://web.archive.org/web/20201111201237/https://insights.stackoverflow.com/survey/" target="_blank">Stack Overflow</a> found that 88.4% of 74,298 respondents used Git.</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-181f43" data-block-id="a3ca3c0e8e7e0b02bc830886bc15ffc8" style="width: 488px; height: 271.111px; left: 888.564px; top: 80.4445px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="900" data-natural-height="500" style="" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/c27d18162a96eae87438330a0c0310c9.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ede2d5" style="width: 913.251px; height: 443.622px; left: 880px; top: 426.189px; min-width: 1px; min-height: 1px;" data-block-id="5a116f9e8abc3285624c0330282e8334"><a class="sl-block-content" style="z-index: 13;" href="https://web.archive.org/web/20190719165725/https://digitalvarys.com/git-branch-and-its-operations/" target="_blank"><img data-natural-width="1229" data-natural-height="597" style="" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/d72f073bb5e1a0f7488bb8443e2382d0.png"></a></div></section><section data-id="96135d058e56f3f16312d3649d8ad814"><div class="sl-block" data-block-type="image" data-name="image-f80feb" style="width: 1578.12px; height: 799.2px; left: 170.94px; top: 140.4px; min-width: 1px; min-height: 1px;" data-block-id="c114f6946035ddb90af11c20fa9f85c9"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="778" data-natural-height="394" style="" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/8af197332ce9188c6d9071307fc232bd.png"></div></div></section><section data-id="f5605052c229cb43069eb6f4a468cf6a"><div class="sl-block" data-block-type="text" style="width: 600px; left: 880px; top: 168.5px; height: auto;" data-block-id="b836adc4fed9c6580e99e9d071d28e53"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1 style="text-align:left"><span style="font-size:1.8em">== Git?</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 982px; left: 426px; top: 349.916px; height: auto;" data-block-id="b5f37ffe64375f158946da0ff1aa9de9"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;">
+<ol>
+	<li>GitHub is a code hosting platform that was acquired by Microsoft in 2018 for $7.5 billion.</li>
+	<li>There are other commercial code hosting platforms that support <strong>Git</strong>.</li>
+	<li>GitHub has the most registered users at <a href="https://web.archive.org/web/20201106172359/https://octoverse.github.com/" target="_blank">(40 million+)</a>, followed by Bitbucket<a href="https://web.archive.org/web/20201107224027/https://bitbucket.org/blog/celebrating-10-million-bitbucket-cloud-registered-users" target="_blank"> (10 million)</a>, and GitLab (<a href="https://web.archive.org/web/20201101055042/https://www.welcometothejungle.com/en/articles/btc-history-git" target="_blank">"millions of users"</a>).</li>
+</ol>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-cb69af" data-block-id="4590d15598a497f9857e8c1cf12de74c" style="width: 523.726px; height: 75.492px; left: 434.274px; top: 691.508px; min-width: 1px; min-height: 1px;"><a class="sl-block-content" style="z-index: 12;" href="https://web.archive.org/web/20201117083132/https://bitbucket.org/product" target="_blank"><img data-natural-width="888" data-natural-height="128" style="" alt="Logo for the company Bitbucket." data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/f8289e91717862323bd8cd8e0ed23480.png"></a></div>
+<div class="sl-block" data-block-type="image" data-name="image-6d6c5b" data-block-id="b7466905a049aef309d602fcd0e286ad" style="width: 497.151px; height: 203.832px; left: 400px; top: 146.084px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="1000" data-natural-height="410" style="" alt="Logo for the company GitHub" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/614250c3f2ba90f93dd260e437d740c1.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-acc86a" data-block-id="9e630d8414b0ac6c0ddb6c31db4bce9d" style="width: 374.556px; height: 165.404px; left: 1010.72px; top: 659.298px; min-width: 1px; min-height: 1px;"><a class="sl-block-content" style="z-index: 14;" href="https://web.archive.org/web/20201117214333/https://about.gitlab.com/pricing/" target="_blank"><img style="" data-natural-width="2500" data-natural-height="1104" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/60eddb98d05c3eac1ffd1de228292f8e.png"></a></div></section><section data-id="27d093f67cf8dfe91904ed3bc879d800"><div class="sl-block" data-block-type="text" style="width: 622px; left: 400px; top: 72px; height: auto;" data-block-id="b7b8888d483b72fe168335486ffdc4c9"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>What is Git?</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-65c3c6" style="height: auto; width: 1120px; left: 400px; top: 216px;" data-block-id="3abaa66938cc817f4d1836e2020a61e7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+<ul>
+	<li>"global information tracker": you're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room.</li>
+	<li>British slang: you're in a bad mood.</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-c65496" style="width: 813.141px; height: 636.144px; left: 505.781px; top: 360px; min-width: 1px; min-height: 1px;" data-block-id="1c6a2e918102907c601e4e8568e0375c"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="781" data-natural-height="611" style="" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/5968e923ff0b5a82c7cb27ee724ece24.png"></div></div></section></section><section class="stack" data-id="b4bbf351769323434c37868d87a6abac"><section data-id="da287140a3f9d937c3c8f2352dc615b5" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-name="image-0870c7" data-block-id="006181801f6eca229a13a18f6763a20f" style="width: 1073px; height: 190.938px; left: 480px; top: 468px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="982" data-natural-height="215" style="left: 0px; top: -44px; width: 1073px; height: 235px;" data-lazy-loaded="" data-crop-x="0" data-crop-y="0.187234" data-crop-width="1" data-crop-height="0.812766" data-src="lunch-and-learn-git-an-introduction/0e0d106417d38c9cc63e0068d4d484a6.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-c5bab6" data-block-id="fcf1d3f098f94ab04c82cfd3339f2414" style="width: 468.058px; height: 144.162px; left: 1051.94px; top: 691.825px; min-width: 1px; min-height: 1px;"><a class="sl-block-content" style="z-index: 11; transition-duration: 0.4s; transition-delay: 2.2s;" href="https://github.com/canada-ca" target="_blank" data-animation-type="fade-in" data-animation-trigger-id="006181801f6eca229a13a18f6763a20f"><img data-natural-width="1000" data-natural-height="308" style="" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/c0e8338a7b1d53bc7284e761bb819ba8.png"></a></div>
+<div class="sl-block" data-block-type="image" data-name="image-6b1395" data-block-id="d2e0f10acda986aa4d6b6b32553f70eb" style="width: 541.575px; height: 148.175px; left: 474.925px; top: 691.825px; min-width: 1px; min-height: 1px;"><a class="sl-block-content" style="z-index: 12; border-width: 1px; transition-duration: 0.6s; transition-delay: 0.6s;" data-animation-type="fade-in" href="https://github.com/NRCan" target="_blank"><img style="" data-natural-width="2500" data-natural-height="684" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/e07b71373ca7f2a2775ff6c1457fada4.png"></a></div>
+<div class="sl-block" data-block-type="image" data-name="image-e22404" data-block-id="cd0dac7c0e6bb247c6af033cc614916a" style="width: 217.6px; height: 24.48px; left: 1302.4px; top: 408.273px; min-width: 1px; min-height: 1px;"><a class="sl-block-content" style="z-index: 13; transition-duration: 0.6s; transition-delay: 1.5s;" data-animation-type="fade-in" href="https://github.com/StatCan" target="_blank"><img data-natural-width="1280" data-natural-height="144" style="" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/391a5ede2b1a1bb67d07ef1b18fceba5.png"></a></div>
+<div class="sl-block" data-block-type="image" data-name="image-e66573" data-block-id="82e6168ed278b6ba6d0208592b577702" style="width: 778.609px; height: 73.505px; left: 490.695px; top: 359.248px; min-width: 1px; min-height: 1px;"><a class="sl-block-content" style="z-index: 14; transition-duration: 0.6s; transition-delay: 3.2s;" href="https://github.com/CER-REC?tab=repositories" target="_blank" data-animation-type="fade-in"><img data-natural-width="858" data-natural-height="81" style="" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/0f38657e01b223a3f49971d21b85e6a1.png"></a></div>
+<div class="sl-block" data-block-type="text" style="width: 489px; left: 400px; top: 228px; height: auto;" data-block-id="13095d62500ce7c3851e2e94715304e9" data-name="text-5fd146"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 16; color: rgb(0, 0, 0);">
+<h1>Used By</h1>
+</div></div></section><section data-id="e95a0c393154023e6745e00b806b6ad5"><div class="sl-block" data-block-type="text" style="width: 1613px; left: 154px; top: 410px; height: auto;" data-block-id="8771ff4cc9d9338c4d3f14e86e333f3f"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Enables</h1>
+</div></div></section><section data-id="2c8ec07c4d88f20d73560f8d7f626cc3"><div class="sl-block" data-block-type="image" data-name="image-b0767a" data-block-id="465f0054f32a016bfadcd3ef53a83866" style="width: 713.522px; height: 467.957px; left: 160px; top: 585.799px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="1010" data-natural-height="408" style="left: 0px; top: 0px; width: 1158px; height: 468px;" data-lazy-loaded="" data-crop-x="0" data-crop-y="0" data-crop-width="0.615942" data-crop-height="1" data-src="lunch-and-learn-git-an-introduction/b97b3ab3589a19cf00f2bc3b9a5ea826.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-b3f1c7" data-block-id="3a43672c6fdfb37fa0113321fff88ff8" style="width: 518.501px; height: 180.348px; left: 1100.75px; top: 258.266px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1.8s;" data-animation-type="fade-in"><img style="" data-natural-width="1380" data-natural-height="480" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/c197ab373880423e9cf0f541224e2ae2.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-654313" data-block-id="5f0752e0af51c7f21062ada219451b71" style="width: 102.907px; height: 116.491px; left: 1122.77px; top: 687.403px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 13; transition-duration: 0.6s; transition-delay: 0.6s;" data-animation-type="fade-in"><img data-natural-width="1000" data-natural-height="1132" style="" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/2233fdddc5f8c445722d0d77bc2c4c4f.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-4f1c70" data-block-id="8edb8c5211c2f0fa81743b79ada414b6" style="width: 128.385px; height: 128.385px; left: 1280px; top: 687.403px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 14; transition-duration: 0.6s; transition-delay: 3.2s;" data-animation-type="fade-in"><img style="" data-natural-width="520" data-natural-height="520" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/c78ec9fafeffe11af100712336f739e5.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-07f83e" data-block-id="7fc93522f051c2ef5896cce04d95aa20" style="width: 127.694px; height: 95.3452px; left: 1110.38px; top: 136.793px; min-width: 1px; min-height: 1px;"><a class="sl-block-content" style="z-index: 15;" href="https://www.gimp.org" target="_blank"><img style="" data-natural-width="300" data-natural-height="224" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/ddc162e576ada792829c4d6c3ad2cfe6.png"></a></div>
+<div class="sl-block" data-block-type="image" data-name="image-26fafa" data-block-id="32ba71f4de9c714b22e5dcfd246319d9" style="width: 361.87px; height: 180.935px; left: 1120px; top: 475.053px; min-width: 1px; min-height: 1px;"><a class="sl-block-content" style="z-index: 16; transition-duration: 0.6s; transition-delay: 3.6s;" href="https://code.visualstudio.com/" target="_blank" data-animation-type="fade-in"><img style="" data-natural-width="480" data-natural-height="240" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/06288c6c6aaffa97d970e5dd248a52b3.png"></a></div>
+<div class="sl-block" data-block-type="image" data-name="image-661c95" data-block-id="1894cbda6847e46b7565f8bcdfac8faa" style="width: 147.6px; height: 147.6px; left: 1286.2px; top: 110.666px; min-width: 1px; min-height: 1px;"><a class="sl-block-content" style="z-index: 17; transition-duration: 0.6s; transition-delay: 2s;" data-animation-type="fade-in" href="https://docs.microsoft.com/en-us/powershell/" target="_blank"><img data-natural-width="256" data-natural-height="256" style="" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/9bc723357134f5d9f7b06dacc9260c41.png"></a></div>
+<div class="sl-block" data-block-type="image" data-name="image-60a430" style="width: 597.859px; height: 481.757px; left: 160px; top: 72px; min-width: 1px; min-height: 1px;" data-block-id="8482d634ad7800552903d05f166007da"><a class="sl-block-content" style="z-index: 10;" href="http://web.archive.org/web/20201101055042/https://www.welcometothejungle.com/en/articles/btc-history-git" target="_blank"><img style="left: 0px; top: 0px; width: 1229px; height: 482px;" data-natural-width="982" data-natural-height="385" data-lazy-loaded="" data-crop-x="0" data-crop-y="0" data-crop-width="0.486542" data-crop-height="1" data-src="lunch-and-learn-git-an-introduction/a14ef846bd526ab256200e1af8d73169.png"></a></div></section></section><section class="stack" data-id="ca72e61043879e99693756fbfd36f621"><section data-id="787d89d73492cff28c84a526b584c69f" data-background-video-muted="true" data-background-video="lunch-and-learn-git-an-introduction/8fefb336df0b37533cfa915f9b233262.mp4" data-background-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1175041/t86is6zT/git_easiest_start_thumb_00001.jpg" data-background-media-id="7946000" data-background-video-loop="true"><div class="sl-block" data-block-type="text" style="width: 1018.44px; left: 458.115px; top: 443px; height: auto;" data-block-id="58775de87e8d049146ee492d70019382"><div class="sl-block-style" style="z-index: 10; opacity: 0.7;"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; background-color: rgb(0, 0, 0); text-align: center;">
+<h1>How to get started?</h1>
+</div></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-82292b" data-block-id="5b3d83cf5959e408bdb0915a3dd53e0a" style="height: auto; width: 600px; left: 660px; top: 584.5px;"><div class="sl-block-style" style="z-index: 11; opacity: 0.7;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; background-color: rgb(0, 0, 0); padding: 5px;">
+<p style="color:rgb(255, 255, 255); text-align:left"><span style="text-align:left">1. </span><a href="https://github.com/join" target="_blank">Sign up</a><span style="text-align:left"> for a GitHub account.​​​ Choose unique username and use CER work email.</span></p>
+
+<p style="color:rgb(255, 255, 255); text-align:left"><span style="text-align:left">2. Create a <a href="https://gist.github.com/" target="_blank">GitHub Gist</a> (see video in the background).</span></p>
+
+<p style="color:rgb(255, 255, 255); text-align:left">3. Live demonstration</p>
+</div></div></div></section><section data-id="c3cd0db21de7e0df9e4d3f69484bfbf8" data-background-video-muted="true" data-background-video-loop="true" data-background-video="lunch-and-learn-git-an-introduction/50796a13653ee536aaf206886696f682.mp4" data-background-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1175041/t3VCETSc/visual_studio_code_gist_integration_thumb_00001.jpg" data-background-media-id="7946342"></section></section><section data-id="5c515830b02809279847c23bd0357888"><div class="sl-block" data-block-type="text" data-name="text-26d5dc" data-block-id="9cb8d660a4b429fe87dbd14c5b34ade7" style="height: auto; width: 1130.07px; left: 320px; top: 227px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h1 style="text-align:left">Additional Reading</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-8b90bf" data-block-id="e0d41a728f3f0b495640fe21c87530c4" style="height: auto; width: 600px; left: 440px; top: 376.5px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li>
+<a href="https://web.archive.org/web/20201112015844/https://training.github.com/downloads/github-git-cheat-sheet.pdf" target="_blank">GitHub Git Cheat Sheet</a> - <span style="font-size:0.9em">Recommended to print this. Laminate if you can.</span>
+</li>
+	<li>
+<a href="https://web.archive.org/web/20201101055042/https://www.welcometothejungle.com/en/articles/btc-history-git" target="_blank">The History of Git: The Road to Domination in Software Version Control</a> - If interested in the history of Git.</li>
+	<li><a href="https://code.visualstudio.com/docs/editor/versioncontrol" target="_blank">Version Control in Visual Studio Code</a></li>
+	<li><a href="https://wiki.gccollab.ca/Technology_Trends/Open_by_Default" target="_blank">GC Open by Default</a></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-3cee67" data-block-id="bd72c131c3ca63fd71a4dd33e8559a0d" style="width: 412.715px; height: 597.811px; left: 1280px; top: 216px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="330" data-natural-height="478" alt="Feeling adventurous? After signing-up on GitHub, explore various projects https://github.com/explore" data-lazy-loaded="" data-src="lunch-and-learn-git-an-introduction/ea5373c474d60f5dfe9393a3f23a8898.png"></div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":1975845,"slug":"lunch-and-learn-git-an-introduction","title":"Lunch and Learn - Git: An Introduction","description":"","width":1920,"height":1080,"margin":0.05,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/923e32ece2fc23cc5c734df6b8662f27/thumb.jpg?1605672955","view_count":11,"user":{"id":1175041,"username":"diegoripley","name":"Diego Ripley","description":"","thumbnail_url":"https://www.gravatar.com/avatar/59f3af485b0a935a93ab37364044d8ed?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"pro","team_id":null,"settings":{"id":4212875,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"black-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":true,"slide_number":true,"slide_count":14,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":3,"data_updated_at":1606330463508,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"notes":{"7856810eb079d0d4d4a95166a4621380":"","5c515830b02809279847c23bd0357888":"Not necessary to memorize git commands. The top few commands of the top of my head. With just these you can collaborate with other colleagues.\n\ngit clone\ngit add\ngit commit\ngit push\ngit rm\ngit branch\ngit checkout","251185867d23ee5c2c0c279e73e730b9":"- Other Linux developers contributed to the initial development.\n- Created in the span of a month (April 3, 2005 to April 29, 2005). Torvalds turned over maintenance (handed off the reigns) on July 26, 2005.\n- Example: open source repositories registered on Ohloh has seen huge growth in Git and Subversion. As of August 2019, they amount to 70% of total repositories.\n","de61d73486d88a7f0f88cb13aeb563bd":"","787d89d73492cff28c84a526b584c69f":"- Hint. Bitwarden can generate random words","da287140a3f9d937c3c8f2352dc615b5":"Sources\n- https://git-scm.com/\n- The remaining GC logos link to Github repositories demonstrating that the respective Agencies and Departments make use of the software.","f5605052c229cb43069eb6f4a468cf6a":"- Bitbucket is owned by Atlassian (Jira, Confluence)\n\nSources\n- https://github.com/logos\n- https://www.atlassian.com/company/news/press-kit","27d093f67cf8dfe91904ed3bc879d800":"- When asked why he called the new software, \"git,\" British slang meaning \"a rotten person,\" he said. \"I'm an egotistical bastard, so I name all my projects after myself. First Linux, now git.\"\n- Linux runs your Android phone.\n\nSources\n- https://web.archive.org/web/20201112023441/https://www.pcworld.idg.com.au/article/129776/after_controversy_torvalds_begins_work_git_/\n- https://web.archive.org/web/20201117141015/https://en.wikipedia.org/wiki/Git#Naming","e003b68a8003a603266c8570cb1feead":"","637b651350ed3fbc0827d41ed93bfd06":"- This boils it down. \n- Source: http://www.marinamele.com/2014/07/git-tutorial-create-a-repository-commit-git-branches-and-bitbucket.html","a6cbb52c1cd6bbb42d695c358672f6ee":"","6baeb2981b38e716b255dd562e21f88f":"","8caaecefb3659ec406e1316b76fad135":"","b565a0fbb5b2d76adee89e949c7f39c0":"Git enables this to happen.\n\nSource\n- https://web.archive.org/web/20201112011217/https://www.nobledesktop.com/blog/what-is-git-and-why-should-you-use-it","fe6da473c55077a1f7beb3998abf46ed":"Source\nhttps://web.archive.org/web/20201112011217/https://www.nobledesktop.com/blog/what-is-git-and-why-should-you-use-it","a48111f99c83d62d863f2786fe6bc815":"\nSource\nhttps://web.archive.org/web/20190719165725/https://digitalvarys.com/git-branch-and-its-operations/","2c8ec07c4d88f20d73560f8d7f626cc3":"- Microsoft is making use of the open source movement (free labor).\n- Some employees get paid to do it on company time, others do it on their own time.\n- Microsoft employees: 156, 439 (2020)\n- Google employees: 100,000+ (2019)\n- IBM employees: 352,600 (2019)\n- Logos that start to show are of open source projects\n\n\nSource\n- https://mozilla.design/firefox/logos-usage/\n- https://commons.wikimedia.org/wiki/File:VLC_Icon.svg\n- https://en.wikipedia.org/wiki/Chromium_(web_browser)#/media/File:Chromium_Material_Icon.png\n- https://www.gimp.org/images/frontpage/wilber-big.png\n- https://code.makery.ch/library/html-css/part1/vs-code-logo.png","c3cd0db21de7e0df9e4d3f69484bfbf8":"","455db5049e3c4de3e6cb77bfefe11b33":"- Look familiar?","0a61a1934f1315ab712ef7136a511fe0":"","e2f0decac0dd9e533b20b6be01a78c4d":"","96135d058e56f3f16312d3649d8ad814":"","e95a0c393154023e6745e00b806b6ad5":""}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 1920,
+				height: 1080,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: true,
+				slideNumber: true,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
