@@ -1,3 +1,7 @@
+# Spatial file extensions
 *.aux
 *.gdb
+
+# ArcGIS Pro
 *.tbx
+.backups
