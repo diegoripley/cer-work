@@ -11,3 +11,4 @@
 
 # Other
 - Took inspiration of land use color theme from [Toronto Land Use Maps](https://www.toronto.ca/city-government/planning-development/official-plan-guidelines/official-plan/official-plan-maps-copy/).
+- Video of fly-over is available on [YouTube](https://youtu.be/pWsVABSPnfw)
