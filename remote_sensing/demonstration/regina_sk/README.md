@@ -5,8 +5,8 @@
 - [Regina Road Centreline](http://open.regina.ca/dataset/road-centerline)
 - [Regina Parks and Amenities](http://open.regina.ca/dataset/parks-and-amenities)
 - [Regina Land Use and Zoning](http://open.regina.ca/dataset/land-use-and-zoning)
+- [Regina Water Features](http://open.regina.ca/dataset/water-features)
 - [NRCan HRDEM](https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995)
-- [NRCan NHN](https://open.canada.ca/data/en/dataset/a4b190fe-e090-4e6d-881e-b87956c07977)
 
 
 # Other
