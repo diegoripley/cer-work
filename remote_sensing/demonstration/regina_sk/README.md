@@ -8,6 +8,6 @@
 - [Regina Water Features](http://open.regina.ca/dataset/water-features)
 - [NRCan HRDEM](https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995)
 
-
 # Other
 - Video of fly-over is available on [YouTube](https://youtu.be/pWsVABSPnfw)
+- If there are multiple elevation sources there might be issues with displaying elevation on the map. Solution is to merge the elevation sources.
