@@ -6,3 +6,7 @@
 *.tbx
 .backups
 Index/
+
+## Data
+*.gpkg-shm
+*.gpkg-wal
