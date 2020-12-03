@@ -1,12 +1,18 @@
-# Spatial file extensions
+# Data
+## Spatial file extensions
 *.aux
+*.aux.xml
+*.ovr
 *.gdb
+
+## Temporary files
+*.gpkg-shm
+*.gpkg-wal
 
 # ArcGIS Pro
 *.tbx
 .backups
 Index/
+info/
 
-## Data
-*.gpkg-shm
-*.gpkg-wal
+
