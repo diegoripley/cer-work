@@ -6,6 +6,8 @@
 - [Regina Parks and Amenities](http://open.regina.ca/dataset/parks-and-amenities)
 - [Regina Land Use and Zoning](http://open.regina.ca/dataset/land-use-and-zoning)
 - [Regina Water Features](http://open.regina.ca/dataset/water-features)
+- [Saskatchewan Vertical Dwells](https://gis.saskatchewan.ca/arcgis/rest/services/Economy/Petroleum/MapServer/0)
+- [Saskatchewan Non-vertical Dwells](https://gis.saskatchewan.ca/arcgis/rest/services/Economy/Petroleum/MapServer/1)
 - [NRCan HRDEM](https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995)
 
 # Other
