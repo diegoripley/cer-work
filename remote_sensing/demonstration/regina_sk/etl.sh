@@ -21,7 +21,7 @@ gdal_calc.py -A dtm_1m_utm13_e_regina.tif -B dsm_1m_utm13_e_regina.tif --calc="B
     #-co "COMPRESS=LZW"
 
 gdal_calc.py -A chm_1m_utm13_regina_1.tif --outfile chm_1m_utm13_regina.tif \
-  --calc="A*(A>0)" --NoDataValue=0 \
+  --calc="A*(A>0)" --NoDataValue=-32767 \
   --type=Float32 --co COMPRESS=LZW
 
 #gdalwarp -t_srs EPSG:26913 \
