@@ -4,29 +4,52 @@
 # -co TILED=YES
 
 # DTM
-gdal_merge.py -o dtm_1m_utm13_e_regina.tif -ot Float32 \
+gdal_merge.py -o dtm_1m_utm13_e_regina_1.tif -ot Float32 \
         -n -32767 \
         -a_nodata -32767 \
         -co COMPRESS=LZW dtm_*_e_*_*.tif
+
+gdalwarp -t_srs EPSG:26913 \
+       -co "COMPRESS=LZW" \
+       dtm_1m_utm13_e_regina_1.tif dtm_1m_utm13_e_regina.tif
+
 # DSM
-gdal_merge.py -o dsm_1m_utm13_e_regina.tif -ot Float32 \
+gdal_merge.py -o dsm_1m_utm13_e_regina_1.tif -ot Float32 \
         -n -32767 \
         -a_nodata -32767 \
         -co COMPRESS=LZW  dsm_*_e_*_*.tif
 
+gdalwarp -t_srs EPSG:26913 \
+       -co "COMPRESS=LZW" \
+       dsm_1m_utm13_e_regina_1.tif dsm_1m_utm13_e_regina.tif
+
+
 # Canopy height model ()
-gdal_calc.py -A dtm_1m_utm13_e_regina.tif -B dsm_1m_utm13_e_regina.tif --calc="B - A" \
+gdal_calc.py -A dtm_1m_utm13_e_regina.tif -B dsm_1m_utm13_e_regina.tif --calc="B-A" \
     --type=Float32 \
-    --outfile chm_1m_utm13_regina_1.tif 
-    #-co "COMPRESS=LZW"
+    --outfile chm_1m_utm13_regina_1.tif \
+    --NoDataValue=-32767
 
-gdal_calc.py -A chm_1m_utm13_regina_1.tif --outfile chm_1m_utm13_regina.tif \
-  --calc="A*(A>0)" --NoDataValue=-32767 \
-  --type=Float32 --co COMPRESS=LZW
+# Where 
+gdal_calc.py -A chm_1m_utm13_regina_1.tif --calc="A*(A>0)" \
+  --type=Float32 \
+  --outfile chm_1m_utm13_regina_2.tif \
+  --NoDataValue=-32767
 
-#gdalwarp -t_srs EPSG:26913 \
-#       -co "COMPRESS=LZW" \
-#       dsm_1m_utm13_e_regina_1.tif dsm_1m_utm13_e_regina.tif
+gdalwarp -t_srs EPSG:26913 \
+       -co "COMPRESS=LZW" \
+       chm_1m_utm13_regina_2.tif chm_1m_utm13_regina.tif \
+       -co "PREDICTOR=3"
+
+
+
+
+#gdal_calc.py -A chm_1m_utm13_regina_1.tif --outfile chm_1m_utm13_regina_2.tif \
+#  --calc="0*(A<0)" \
+#  --type=Float32
+
+#--NoDataValue=0 \
+
 
 #gdalwarp -t_srs EPSG:26913 \
 #       -co "COMPRESS=LZW" \
