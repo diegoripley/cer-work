@@ -15,5 +15,5 @@
 - [NRCan HRDEM](https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995)
 
 # Other
-- Video of fly-over is available on [YouTube](https://youtu.be/pWsVABSPnfw)
+- Videos of fly-over is available: [1](https://www.youtube.com/watch?v=EweDXNbqK0Q), [2](https://www.youtube.com/watch?v=aUnEKDdhcBU)
 - If there are multiple elevation sources there might be issues with displaying elevation on the map. Solution is to merge the elevation sources.
